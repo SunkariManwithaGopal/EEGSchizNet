@@ -1,0 +1,374 @@
+{
+  "fold1": {
+    "epoch_metrics": {
+      "acc": 0.7351632047477745,
+      "auc": 0.8464188664596273,
+      "f1": 0.6803939122649956,
+      "sens": 0.5397727272727273,
+      "spec": 0.9487577639751553,
+      "ppv": 0.9200968523002422,
+      "cm": {
+        "tn": 611,
+        "fp": 33,
+        "fn": 324,
+        "tp": 380
+      }
+    },
+    "subject_metrics": {
+      "vote_accuracy": 0.8333333333333334,
+      "auc": 0.888888888888889,
+      "sensitivity": 0.6666666666666666,
+      "specificity": 1.0
+    },
+    "subjects": [
+      {
+        "subject_id": 4,
+        "true_label": 0,
+        "mean_prob": 0.0973836808328334,
+        "uncertainty": 0.049327935128985916,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 214
+      },
+      {
+        "subject_id": 5,
+        "true_label": 0,
+        "mean_prob": 0.04178768954401935,
+        "uncertainty": 0.0197688955148352,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 224
+      },
+      {
+        "subject_id": 6,
+        "true_label": 0,
+        "mean_prob": 0.17803121316890924,
+        "uncertainty": 0.10978822942900061,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 206
+      },
+      {
+        "subject_id": 18,
+        "true_label": 1,
+        "mean_prob": 0.7562219003752235,
+        "uncertainty": 0.11815582536343151,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 216
+      },
+      {
+        "subject_id": 19,
+        "true_label": 1,
+        "mean_prob": 0.10806499205194184,
+        "uncertainty": 0.06602937344491873,
+        "vote": 0,
+        "correct": false,
+        "n_epochs": 161
+      },
+      {
+        "subject_id": 24,
+        "true_label": 1,
+        "mean_prob": 0.5721217389332433,
+        "uncertainty": 0.12954989113367232,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 327
+      }
+    ]
+  },
+  "fold2": {
+    "epoch_metrics": {
+      "acc": 0.8200143988480921,
+      "auc": 0.9236919904032864,
+      "f1": 0.812874251497006,
+      "sens": 0.7428180574555403,
+      "spec": 0.9057750759878419,
+      "ppv": 0.8975206611570248,
+      "cm": {
+        "tn": 596,
+        "fp": 62,
+        "fn": 188,
+        "tp": 543
+      }
+    },
+    "subject_metrics": {
+      "vote_accuracy": 1.0,
+      "auc": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    "subjects": [
+      {
+        "subject_id": 2,
+        "true_label": 0,
+        "mean_prob": 0.06622706314181567,
+        "uncertainty": 0.04145814436537883,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 213
+      },
+      {
+        "subject_id": 12,
+        "true_label": 0,
+        "mean_prob": 0.04627363981620875,
+        "uncertainty": 0.023642734227902907,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 240
+      },
+      {
+        "subject_id": 13,
+        "true_label": 0,
+        "mean_prob": 0.30713417578999685,
+        "uncertainty": 0.13046895527311755,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 205
+      },
+      {
+        "subject_id": 14,
+        "true_label": 1,
+        "mean_prob": 0.8151227825862645,
+        "uncertainty": 0.09505851980026371,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 206
+      },
+      {
+        "subject_id": 20,
+        "true_label": 1,
+        "mean_prob": 0.771458346138941,
+        "uncertainty": 0.09431648433502697,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 300
+      },
+      {
+        "subject_id": 26,
+        "true_label": 1,
+        "mean_prob": 0.5067500370328004,
+        "uncertainty": 0.15284970613985005,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 225
+      }
+    ]
+  },
+  "fold3": {
+    "epoch_metrics": {
+      "acc": 0.5920726672171759,
+      "auc": 0.6186041299087925,
+      "f1": 0.6530898876404494,
+      "sens": 0.6266846361185984,
+      "spec": 0.5373134328358209,
+      "ppv": 0.6818181818181818,
+      "cm": {
+        "tn": 252,
+        "fp": 217,
+        "fn": 277,
+        "tp": 465
+      }
+    },
+    "subject_metrics": {
+      "vote_accuracy": 0.6,
+      "auc": 0.6666666666666666,
+      "sensitivity": 0.6666666666666666,
+      "specificity": 0.5
+    },
+    "subjects": [
+      {
+        "subject_id": 7,
+        "true_label": 0,
+        "mean_prob": 0.10924638824694802,
+        "uncertainty": 0.0750355768881557,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 213
+      },
+      {
+        "subject_id": 9,
+        "true_label": 0,
+        "mean_prob": 0.7549544450250323,
+        "uncertainty": 0.12944504440199567,
+        "vote": 1,
+        "correct": false,
+        "n_epochs": 256
+      },
+      {
+        "subject_id": 16,
+        "true_label": 1,
+        "mean_prob": 0.8426750666448304,
+        "uncertainty": 0.07697003012802485,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 240
+      },
+      {
+        "subject_id": 17,
+        "true_label": 1,
+        "mean_prob": 0.7103875636938809,
+        "uncertainty": 0.12816661659441778,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 298
+      },
+      {
+        "subject_id": 23,
+        "true_label": 1,
+        "mean_prob": 0.1952578688504895,
+        "uncertainty": 0.11153311101544858,
+        "vote": 0,
+        "correct": false,
+        "n_epochs": 204
+      }
+    ]
+  },
+  "fold4": {
+    "epoch_metrics": {
+      "acc": 0.5283018867924528,
+      "auc": 0.5352713655624125,
+      "f1": 0.4444444444444444,
+      "sens": 0.36603221083455345,
+      "spec": 0.7009345794392523,
+      "ppv": 0.5656108597285068,
+      "cm": {
+        "tn": 450,
+        "fp": 192,
+        "fn": 433,
+        "tp": 250
+      }
+    },
+    "subject_metrics": {
+      "vote_accuracy": 0.6,
+      "auc": 0.6666666666666667,
+      "sensitivity": 0.5,
+      "specificity": 0.6666666666666666
+    },
+    "subjects": [
+      {
+        "subject_id": 1,
+        "true_label": 0,
+        "mean_prob": 0.22671470429295454,
+        "uncertainty": 0.10000078458580128,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 218
+      },
+      {
+        "subject_id": 8,
+        "true_label": 0,
+        "mean_prob": 0.6786559157749248,
+        "uncertainty": 0.1199738896325438,
+        "vote": 1,
+        "correct": false,
+        "n_epochs": 215
+      },
+      {
+        "subject_id": 10,
+        "true_label": 0,
+        "mean_prob": 0.1519426384717939,
+        "uncertainty": 0.06722525089017665,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 209
+      },
+      {
+        "subject_id": 21,
+        "true_label": 1,
+        "mean_prob": 0.5584561763296639,
+        "uncertainty": 0.15626589317369932,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 215
+      },
+      {
+        "subject_id": 27,
+        "true_label": 1,
+        "mean_prob": 0.32689962474764606,
+        "uncertainty": 0.09345912944665262,
+        "vote": 0,
+        "correct": false,
+        "n_epochs": 468
+      }
+    ]
+  },
+  "fold5": {
+    "epoch_metrics": {
+      "acc": 0.8389312977099237,
+      "auc": 0.908753243906818,
+      "f1": 0.8451944240645635,
+      "sens": 0.863568215892054,
+      "spec": 0.8133748055987559,
+      "ppv": 0.8275862068965517,
+      "cm": {
+        "tn": 523,
+        "fp": 120,
+        "fn": 91,
+        "tp": 576
+      }
+    },
+    "subject_metrics": {
+      "vote_accuracy": 1.0,
+      "auc": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    "subjects": [
+      {
+        "subject_id": 0,
+        "true_label": 0,
+        "mean_prob": 0.13786655274511656,
+        "uncertainty": 0.06392822183369229,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 217
+      },
+      {
+        "subject_id": 3,
+        "true_label": 0,
+        "mean_prob": 0.17974544383900207,
+        "uncertainty": 0.08847503696726688,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 216
+      },
+      {
+        "subject_id": 11,
+        "true_label": 0,
+        "mean_prob": 0.4411196735201936,
+        "uncertainty": 0.13412732891497514,
+        "vote": 0,
+        "correct": true,
+        "n_epochs": 210
+      },
+      {
+        "subject_id": 15,
+        "true_label": 1,
+        "mean_prob": 0.7961458278836976,
+        "uncertainty": 0.08015724450086449,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 273
+      },
+      {
+        "subject_id": 22,
+        "true_label": 1,
+        "mean_prob": 0.8398872562684119,
+        "uncertainty": 0.08826512826670793,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 276
+      },
+      {
+        "subject_id": 25,
+        "true_label": 1,
+        "mean_prob": 0.7417215702013442,
+        "uncertainty": 0.10617642757384224,
+        "vote": 1,
+        "correct": true,
+        "n_epochs": 118
+      }
+    ]
+  }
+}

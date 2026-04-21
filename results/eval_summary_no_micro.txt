@@ -1,0 +1,16 @@
+EEGSchizNet v2 — Phase 4A+4B+4C evaluation
+no_graph=False  no_micro=True
+
+Epoch-level
+  accuracy: 0.7173 ± 0.1241
+  auc: 0.7631 ± 0.1595
+  f1: 0.7280 ± 0.1220
+  sensitivity: 0.7123 ± 0.1458
+  specificity: 0.7156 ± 0.1496
+  ppv: 0.7511 ± 0.1144
+
+Subject-level
+  vote_accuracy: 0.7733 ± 0.1541
+  auc: 0.8444 ± 0.1507
+  sensitivity: 0.7667 ± 0.2000
+  specificity: 0.7667 ± 0.2000

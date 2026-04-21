@@ -1,0 +1,21 @@
+EEGSchizNet v2 — evaluation summary
+mc_passes=30  threshold=0.5
+
+Epoch-level
+  accuracy: 0.7230 ± 0.1042
+  auc: 0.8061 ± 0.1422
+  f1: 0.7361 ± 0.1090
+  sensitivity: 0.7463 ± 0.1788
+  specificity: 0.7068 ± 0.0957
+  ppv: 0.7453 ± 0.0869
+
+Subject-level
+  vote_accuracy: 0.8200 ± 0.0163
+  auc: 0.8778 ± 0.1237
+  sensitivity: 0.8667 ± 0.1633
+  specificity: 0.8000 ± 0.1633
+
+Risk zone distribution
+  Normal: 10/28
+  Borderline: 9/28
+  High Risk: 9/28
