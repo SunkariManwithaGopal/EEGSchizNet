@@ -1,0 +1,25 @@
+# Large data files — do not push
+cache/
+data/
+models/
+models_aug/
+reports/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb
+
+# Large tensors and checkpoints
+*.pt
+*.pkl
+*.npy
+*.h5
+
+# Results (keep json, ignore large outputs)
+results/*.png
+results/*.pdf
